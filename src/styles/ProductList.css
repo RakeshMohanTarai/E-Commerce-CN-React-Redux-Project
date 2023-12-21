@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Add your preferred font-family */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* Adjust gradient colors as needed */
+    color: #fff; /* Set text color to white or a contrasting color */
+}
+
+.product-list {
+    text-align: center;
+}
+
+.notification {
+    width: 250px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.success {
+    background: #4CAF50;
+}
+
+.error {
+    background: #dc3545;
+}
+
+.list-item {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.product-info {
+    font-size: 16px;
+    color: black;
+    font-weight: bold; /* Added this line to make the text bold */
+  }
+
+.button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.add-to-cart {
+    background: #28a745;
+    color: #fff;
+}
+
+.details {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.details:hover {
+    color: #0056b3;
+}
+
+.delete {
+    background: #dc3545;
+    color: #fff;
+}
